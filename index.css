@@ -8,7 +8,7 @@ body, html {
     display: flex;
     height: 100%;
     transition: background-color 0.5s;
-
+}
 .left-section {
     flex: 60%;
     background-color: #f0f0f0;
