@@ -1,0 +1,58 @@
+body {
+    margin: 0;
+
+}
+
+.back-log {
+    width: 50%;
+    height: 1024px;
+    flex-shrink: 0;
+    background: url("/public/images/pexels-steve-johnson-12699681.png") lightgray 50% / cover no-repeat;
+    box-shadow: 10px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    flex-direction: start;
+
+}
+
+
+
+h1 {
+    color: #BFA364;
+    font-family: 'Roboto', sans-serif;
+    font-size: 104.379px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-shadow: 4px -6px 4px rgba(0, 0, 0, 0.25);
+    
+}
+
+
+
+.log-conect{
+    padding-left: 60%;
+    margin-top: -50%;
+    align-items: center;
+}
+
+button {
+    width: 463px;
+    height: 78px;
+    flex-shrink: 0;
+    border-radius: 9px;
+    background: #BFA364;
+    color: #FFF;
+    font-family: 'Roboto', sans-serif;
+    font-size: 23.333px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    border: none;
+    transition: transform 0.3s ease;
+    
+}
+button:hover{
+    background-color: #CD6116;
+    transform: translateY(-5px);
+}
+
