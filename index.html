@@ -4,18 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MetaMask Login</title>
-    
+    <link rel="stylesheet" href="index.css">
+    <!-- Inclua a biblioteca da MetaMask -->
     <script src="https://cdn.jsdelivr.net/npm/@metamask/detect-provider"></script>
 </head>
 <body>
-    <div style="position: absolute; top: 10px; right: 10px;">
-        <span id="userWallet"></span>
+    <div class="container">
+        <div class="left-section">
+            <img src="your-logo.png" alt="Company Logo">
+            <h1>Nome da Empresa</h1>
+                <button id="loginButton" class="center-button" >Login with MetaMask</button>
+            </div>
+        </div>
+        <div class="right-section">
+            <!-- Aqui você pode adicionar conteúdo à seção da direita, se necessário -->
+        </div>
     </div>
 
-    <h1>MetaMask Login Example</h1>
-    
-    <button id="loginButton">Login with MetaMask</button>
-
-    <script src="index.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>

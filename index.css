@@ -1,58 +1,46 @@
-body {
+body, html {
     margin: 0;
-
+    padding: 0;
+    height: 100%;
 }
 
-.back-log {
-    width: 50%;
-    height: 1024px;
-    flex-shrink: 0;
-    background: url("/public/images/pexels-steve-johnson-12699681.png") lightgray 50% / cover no-repeat;
-    box-shadow: 10px 4px 4px 0px rgba(0, 0, 0, 0.25);
-    flex-direction: start;
-
+.container {
+    display: flex;
+    height: 100%;
+    transition: background-color 0.5s; /* Adiciona transição para a mudança de cor de fundo */
 }
 
-
-
-h1 {
-    color: #BFA364;
-    font-family: 'Roboto', sans-serif;
-    font-size: 104.379px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-    text-shadow: 4px -6px 4px rgba(0, 0, 0, 0.25);
-    
-}
-
-
-
-.log-conect{
-    padding-left: 60%;
-    margin-top: -50%;
+.left-section {
+    flex: 60%;
+    background-color: #f0f0f0;
+    display: flex;
     align-items: center;
+    justify-content: flex-end;
+    background-image: url("/img/background.png") ;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 60% 100%;
+    transition: justify-content 0.5s; /* Adiciona transição para o alinhamento do botão após o login */
 }
 
-button {
-    width: 463px;
-    height: 78px;
-    flex-shrink: 0;
-    border-radius: 9px;
-    background: #BFA364;
-    color: #FFF;
-    font-family: 'Roboto', sans-serif;
-    font-size: 23.333px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+.right-section {
+    flex: 40%;
+    background-color: #e0e0e0;
+}
+
+.center-button {
+    padding: 20px 60px;
+    background-color: #007bff;
+    color: #fff;
     border: none;
-    transition: transform 0.3s ease;
-    
+    cursor: pointer;
+    border-radius: 4px;
+    margin-right: 10%;
+    transition: margin-right 0.5s; /* Adiciona transição para a margem direita após o login */
 }
-button:hover{
-    background-color: #CD6116;
-    transform: translateY(-5px);
+
+.center-button:hover {
+    background-color: #0056b3;
 }
+
 
