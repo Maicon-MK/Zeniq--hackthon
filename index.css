@@ -7,8 +7,7 @@ body, html {
 .container {
     display: flex;
     height: 100%;
-    transition: background-color 0.5s; /* Adiciona transição para a mudança de cor de fundo */
-}
+    transition: background-color 0.5s;
 
 .left-section {
     flex: 60%;
@@ -20,7 +19,7 @@ body, html {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: 60% 100%;
-    transition: justify-content 0.5s; /* Adiciona transição para o alinhamento do botão após o login */
+    transition: justify-content 0.5s; 
 }
 
 .right-section {
@@ -36,11 +35,9 @@ body, html {
     cursor: pointer;
     border-radius: 4px;
     margin-right: 10%;
-    transition: margin-right 0.5s; /* Adiciona transição para a margem direita após o login */
+    transition: margin-right 0.5s; 
 }
 
 .center-button:hover {
     background-color: #0056b3;
 }
-
-
